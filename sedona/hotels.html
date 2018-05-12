@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sedona</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="index-body">
+  <header>
+    <nav>
+      <a class="logo" href="index.html"><img src="img/logo.png" width="138" height="70" alt="Sedona logo"></a>
+      <ul>
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>
+        <li><a href="#">Карта штата</a></li>
+        <li><a href="hotels.html">Гостинницы</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="filter">
+      <h2 class="visually-hidden">Фильтр</h2>
+      <form method="get" action="#">
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <input class="visually-hidden" type="checkbox" id="pool" name="pool" checked>
+          <label for="pool">Бассейн</label>
+          <input class="visually-hidden" type="checkbox" id="parking" name="parking">
+          <label for="parking">Парковка</label>
+          <input class="visually-hidden" type="checkbox" id="wifi" name="wifi">
+          <label for="wifi">WI-FI</label>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья:</legend>
+          <input class="visually-hidden" type="checkbox" id="hotel" name="hotel" checked>
+          <label for="hotel">Гостиница</label>
+          <input class="visually-hidden" type="checkbox" id="motel" name="motel" checked>
+          <label for="motel">Мотель</label>
+          <input class="visually-hidden" type="checkbox" id="apartment" name="apartment" checked>
+          <label for="apartment">Апартаменты</label>
+        </fieldset>
+        <fieldset class="price-filter">
+          <legend>Стоимость в сутки (Р):</legend>
+          <div class="price-controls">
+            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+            <label class="max-price">до <input name="max-price" type="text" value="3000"></label>
+          </div>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min">
+            </div><div class="range-toggle range-toggle-max"></div>
+          </div>
+          <button class="btn-transparent" type="submit">Показать</button>
+        </fieldset>
+      </form>
+    </section>
+    
+    <section class="sort-filter">
+      <h2 class="visually-hidden">Сортировка</h2>
+      <form method="get" action="#">
+        <fieldset class="sort-result">
+          <p>Найдено: <span class="search-indicator">3</span></p>
+        </fieldset>
+      
+        <fieldset class="sort-type">
+          <legend>Сортировка:</legend>
+          <input class="visually-hidden" type="radio" id="price" name="sort-type" checked>
+          <label for="price">По цене</label>
+          <input class="visually-hidden" type="radio" id="type" name="sort-type">
+          <label for="type">По типу</label>
+          <input class="visually-hidden" type="radio" id="prod-name" name="sort-type">
+          <label for="prod-name">По названию</label>
+        </fieldset>
+          
+        <fieldset class="sort-direction">
+          <input class="visually-hidden" type="radio" id="desc" name="sort-direction" checked>
+          <label for="desc"></label>
+          <input class="visually-hidden" type="radio" id="asc" name="sort-direction">
+          <label for="asc"></label>
+        </fieldset>
+      </form>
+    </section>
+    
+    <section class="search-results">
+      <h2 class="visually-hidden">Результаты поиска</h2>
+      <ul>
+        <li>
+          <img src="img/hotel-1.jpg" width="135" height="90" alt="hotel-1">
+          <div class="hotel-info">
+            <h3>Amara Resort & Spa</h3>
+            <p>
+              <span>Гостинница</span> <span>от 4000 р.</span>
+            </p>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+          </div>
+          <div class="hotel-rating">
+            <div class="rating"><span></span><span></span><span></span><span></span></div>
+            <p>Рейтинг: 8,5</p>
+          </div>
+        </li>
+        <li>
+          <img src="img/hotel-2.jpg" width="135" height="90" alt="hotel-2">
+          <div class="hotel-info">
+            <h3>Desert Quail Inn</h3>
+            <p>
+              <span>Мотель</span> <span>от 3000 р.</span>
+            </p>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+          </div>
+          <div class="hotel-rating">
+            <div class="rating"><span></span><span></span><span></span></div>
+            <p>Рейтинг: 8,9</p>
+          </div>
+        </li>
+        <li>
+          <img src="img/hotel-3.jpg" width="135" height="90" alt="hotel-3">
+          <div class="hotel-info">
+            <h3>Villas at Poco Diablo</h3>
+            <p>
+              <span>Аппартаменты</span> <span>от 2000 р.</span>
+            </p>
+            <a href="#">Подробнее</a>
+            <a href="#">Забронировать</a>
+          </div>
+          <div class="hotel-rating">
+            <div class="rating"><span></span><span></span></div>
+            <p>Рейтинг: 9,2</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="left-col">
+      <p>#VISITSEDONA</p>
+    </div>
+    <div class="socials">
+      <ul>
+        <li><a class="t-btn" href="#"><span class="visually-hidden">Twitter</span></a></li>
+        <li><a class="fb-btn" href="#"><span class="visually-hidden">Facebook</span></a></li>
+        <li><a class="you-btn" href="#"><span class="visually-hidden">Youtube</span></a></li>
+      </ul>
+    </div>
+    <div class="right-col">
+      <div>
+        <p>Website by</p>
+        <a href="#"><img src="img/html-academy.svg" width="115" height="41" alt="HTML Academy"></a>
+      </div>
+    </div>
+  </footer>
+  
+  </body>
+</html>
