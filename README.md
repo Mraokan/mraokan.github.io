@@ -1,4 +1,4 @@
-[Barbershop](https://mraokan.github.io/barbershop) - Fixed
-[Nerds](https://mraokan.github.io/nerds) - Fixed
-[Sedona](https://mraokan.github.io/sedona) - Flexible
-[Glaccy](https://mraokan.github.io/glaccy) - Flexible
+[Barbershop](https://mraokan.github.io/barbershop) - Fixed<br>
+[Nerds](https://mraokan.github.io/nerds) - Fixed<br>
+[Sedona](https://mraokan.github.io/sedona) - Flexible<br>
+[Glaccy](https://mraokan.github.io/glaccy) - Flexible<br>
