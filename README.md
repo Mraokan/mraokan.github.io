@@ -1,3 +1,4 @@
+[Cat Energy](https://mraokan.github.io/cat-energy/) - Adaptive
 [Barbershop](https://mraokan.github.io/barbershop) - Fixed<br>
 [Barbershop Adaptive](https://mraokan.github.io/barbershop-adaptive) - Same barbershop redesigned<br>
 [Nerds](https://mraokan.github.io/nerds) - Fixed<br>
