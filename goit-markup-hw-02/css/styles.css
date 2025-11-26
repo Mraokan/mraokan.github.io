@@ -3,6 +3,7 @@ body {
   color: #434455;
   line-height: 1.5;
   background-color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -13,22 +14,30 @@ ul {
   list-style-type: none;
 }
 
-.header-2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 36px;
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.heading-2 {
+  font-size: 2.25em; /* 36px */
   line-height: 1.11;
-  letter-spacing: 0.02em;
   font-weight: 700;
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
 }
 
-.header-3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
+.heading-3 {
+  font-size: 1.25em; /* 20px */
   line-height: 1.2;
-  letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -36,7 +45,7 @@ ul {
 .main-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125em; /* 18px*/
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -57,10 +66,7 @@ ul {
 
 .nav-link {
   color: #2e2f42;
-  font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -74,9 +80,6 @@ ul {
 
 .contacts-link {
   color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
@@ -88,21 +91,17 @@ ul {
   background-color: #2e2f42;
 }
 
-.hero-header {
+.hero-heading {
   color: #fff;
-  font-size: 56px;
+  font-size: 3.5em; /* 56px*/
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   text-align: center;
 }
 
 .btn-cta {
   background-color: #4d5ae5;
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -113,17 +112,6 @@ ul {
   background-color: #404bbf;
 }
 
-.features .header-2 {
-  display: none;
-}
-
-.main-para {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 .our-team {
   background-color: #f4f4fd;
 }
@@ -132,8 +120,6 @@ ul {
   background-color: #2e2f42;
 }
 
-.para-light {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.text-light {
   color: #f4f4fd;
 }
